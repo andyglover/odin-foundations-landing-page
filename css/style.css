@@ -49,6 +49,12 @@ button, .action {
     font-weight: lighter;
     font-style: italic;
 }
+
+.quote cite {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 60%;
+}
 button {
     font-size: 18px;
     font-weight: 600;
@@ -57,6 +63,7 @@ button {
     border-radius: 10px;
     border: 0;
  }
+ 
  .action button {
     border: 2px solid white;
  }
@@ -105,6 +112,10 @@ header ul {
 .infos img {
     border: 5px solid #3882F6;
     border-radius: 25px;
+}
+.quote {
+    border-top: 100px solid #E5E7EB;
+    border-bottom: 100px solid #E5E7EB;
 }
 
 
