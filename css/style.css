@@ -35,9 +35,12 @@ button, .action {
 }
 
 .info {
+    color:#1f2937; 
+}
+
+.info h2 {
     font-size: 36px;
     font-weight: 900;
-    color:#1f2937; 
 }
 
 .quote {
@@ -83,9 +86,25 @@ header ul {
     border-top: 100px solid #1F2937;
     border-bottom: 100px solid #1F2937;
 }
+.info{
+    margin-bottom:125px;
+}
+.info h2{
+    text-align:center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 .infos{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap:50px;
+}
+.infos div {
+    width:185px;
+}
+.infos img {
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
 
 
