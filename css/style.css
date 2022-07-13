@@ -18,7 +18,6 @@ header, .hero, footer {
     margin-bottom: 10px;
 }
 
-
 .hero p, header a {
     font-size: 18px;
     color:#e5e7eb;
@@ -55,6 +54,7 @@ button, .action {
     font-weight: bold;
     margin-left: 60%;
 }
+
 button {
     font-size: 18px;
     font-weight: 600;
@@ -68,14 +68,19 @@ button {
     border: 2px solid white;
  }
 
+ .action{
+    color:white;
+ }
+
+ footer{
+    color: #e5e7eb;
+ }
 
 /* LAYOUT */
 header, footer, .hero,.info{
     padding: 0 20%;
 }
-.quote{
-    padding: 0 25%;
-}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -86,6 +91,7 @@ header ul {
     list-style-type: none;
     gap: 25px;
 }
+
 .hero p {
     margin-top: 10px;
 }
@@ -96,29 +102,36 @@ header ul {
     border-top: 100px solid #1F2937;
     border-bottom: 100px solid #1F2937;
 }
+
 .info{
     margin-bottom:125px;
 }
+
 .info h2{
     text-align:center;
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
 .infos{
     display:flex;
     justify-content: center;
     gap:50px;
 }
+
 .infos div {
     width:185px;
 }
+
 .infos img {
     border: 5px solid #3882F6;
     border-radius: 25px;
 }
+
 .quote {
     border-top: 100px solid #E5E7EB;
     border-bottom: 100px solid #E5E7EB;
+    padding: 0 25%;
 }
 
 .action {
@@ -128,22 +141,20 @@ header ul {
     align-items: center;
     padding: 60px 130px;
     border-radius: 10px;
-    color:white;
 }
+
 .action h3 {
     margin:0;
     font-size: 24px;
     font-weight: bold;
 }
+
 .action p {
     margin-top:5px;
 }
 
 footer {
     text-align: center;
-    color: #e5e7eb;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
- 
