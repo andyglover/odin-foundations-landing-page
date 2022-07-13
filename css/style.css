@@ -70,7 +70,7 @@ button {
 
 
 /* LAYOUT */
-header, footer, .hero,.info,.action{
+header, footer, .hero,.info{
     padding: 0 20%;
 }
 .quote{
@@ -119,11 +119,24 @@ header ul {
 .quote {
     border-top: 100px solid #E5E7EB;
     border-bottom: 100px solid #E5E7EB;
-    padding-left;
 }
 
 .action {
-    margin: 0 20%;
+    margin: 100px 20%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 130px;
+    border-radius: 10px;
+    color:white;
+}
+.action h3 {
+    margin:0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.action p {
+    margin-top:5px;
 }
 
  
