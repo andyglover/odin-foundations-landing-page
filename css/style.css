@@ -3,3 +3,33 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+header, .hero, footer {
+    background-color: #1F2937;
+}
+
+.hero{
+    /* main text */
+    /* secondary text */
+}
+
+header {
+    /* link text */
+    /* logo text */
+}
+
+button {
+    /* color */
+}
+.info {
+    /* header text */
+}
+
+.quote {
+    background-color: #E5E7EB;
+    /* text */
+}
+
+.action {
+    background-color: #3882F6;
+}
