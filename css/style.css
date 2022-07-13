@@ -60,6 +60,6 @@ header {
 }
 
 header, footer, .hero,.info,.action,.quote{
-    padding: 0 10%;
+    padding: 0 20%;
 }
 
